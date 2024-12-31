@@ -1,5 +1,10 @@
 {
-    "branches": ["main"],
+    "repositoryUrl": "https://github.com/shivam-visions/auto-semantic-release.git",
+    "branches": [
+      "main",
+      "master",
+      "develop"
+    ],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",

@@ -40,6 +40,10 @@ jobs:
 
       - name: Run Semantic Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GHU_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
+    permissions:
+      contents: write  # Allows push access to repository contents
+      id-token: write   # Required for access to GitHub's authentication features
+      pull-requests: write
