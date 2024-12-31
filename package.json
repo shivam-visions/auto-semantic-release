@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A sample package demonstrating semantic-release",
   "main": "src/index.js",
   "scripts": {
@@ -15,7 +15,20 @@
     "type": "git",
     "url": "https://github.com/shivam-visions/auto-semantic-release.git"
   },
-  "keywords": [],
+  "keywords": [
+    "semantic-release",
+    "release automation",
+    "versioning",
+    "changelog generator",
+    "npm publish",
+    "github releases",
+    "CI/CD",
+    "automation",
+    "devops",
+    "software development",
+    "workflow",
+    "git"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
